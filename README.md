@@ -1,2 +1,4 @@
 # Cell-Insight-CX7-ER-phagy-Analysis
 This pipeline processes Cell Insight CX7 colocalization assay output to report on ER-phagy activity and requires specific experimental input. 
+
+This pipeline functions to report on Endoplasmic Reticulum (ER) autophagy (ER-phagy) from a specific experimental input. To set up the experiment cells were transfected with an ER-phagy reporter containing an ER-localized construct tagged with both GFP and RFP over a time course using a control and experimental stressor. Conditions are assigned to each 96-well plate column, filtered, constricted to 90 cells per condition, and plotted with statistical significance. Statistical tests were performed using Wilcoxon signed-rank tests comparing the conditions at each time point. The specific time points used in this experiment range from 16hr to 26hr with a timepoint collected every 2 hours. 
